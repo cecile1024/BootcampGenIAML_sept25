@@ -1,8 +1,4 @@
 #help (type)
-age=47
-name="cecile"
-type_age=type(age)
-type(name)
-print (type_age)
-print(type(name))
-
+print("hello world")
+print("il fait beau")
+print("pourquoi tu n'es pas en orange?")
