@@ -14,7 +14,28 @@ concatenate="4"+"real"
 print(concatenate)
 repeat=3*"cool"
 print(repeat)
-error_test=1/0
-print(error_test)
+#error_test=1/0
+#print(error_test)
 test_type=type([])
 print(test_type)
+#name=input("what is tour name?")
+#print(name)
+number=float(input("give me a number "))
+if number <0:
+    print(f"the number {number} is negative")
+elif number>0:
+    print(f"the number{number} is positive")
+else: print("you picked 0!")
+
+fruit=list("apple")
+for i in range(len(fruit)):
+    if fruit[i]=='l':
+        print(f"index of l is {i}")
+
+print("y" in"xylophone")
+
+my_string = "my_string"
+print(my_string.islower())
+
+
+
