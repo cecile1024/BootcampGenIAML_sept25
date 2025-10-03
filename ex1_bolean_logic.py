@@ -27,10 +27,14 @@ elif number>0:
     print(f"the number{number} is positive")
 else: print("you picked 0!")
 
-fruit=list("apple")
+fruit=list("apple") # methode bourrin
 for i in range(len(fruit)):
     if fruit[i]=='l':
         print(f"index of l is {i}")
+# autre methode avec subfunction .find
+name='apple'
+result=name.find('l')
+print(f"index of l in apple is {result}")
 
 print("y" in"xylophone")
 
