@@ -1,0 +1,16 @@
+#Excercie 1 : Lists
+list1=[1,2,3,4]
+for item in list1:
+    print(item)
+
+for item in list1:
+    value=item*20
+    print(value)
+
+list_names=["Elie","Tim","Matt"]
+new_list=[name[0] for name in list_names]
+print(new_list)
+
+nombre=[1,2,3,4,5,6]
+pairs=[n for n in nombre if n%2==0]
+print(pairs)
